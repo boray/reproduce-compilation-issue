@@ -1,3 +1,3 @@
-import { Add } from './Add.js';
+import { AddProgram } from './AddProgram.js';
 
-export { Add };
+export { AddProgram };
