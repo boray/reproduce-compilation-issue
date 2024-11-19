@@ -21,4 +21,13 @@ export default class ZkappWorkerClient {
     return this.remoteApi.compileProgram();
   }
 
+
+  async loadNonRecursiveProgram() {
+    return this.remoteApi.loadNonRecursiveProgram();
+  }
+
+  async compileNonRecursiveProgram() {
+    return this.remoteApi.compileNonRecursiveProgram();
+  }
+
 }

@@ -22,11 +22,11 @@ export default function Home() {
           console.log('Done loading web worker')
       
           console.log('Loading zkProgram...');
-          await zkappWorkerClient.loadProgram();
+          await zkappWorkerClient.loadNonRecursiveProgram();
           console.log('zkProgram loaded');
 
           console.log('Compiling zkProgram...');
-          await zkappWorkerClient.compileProgram();
+          await zkappWorkerClient.compileNonRecursiveProgram();
           console.log('zkProgram compiled');
           
         }
